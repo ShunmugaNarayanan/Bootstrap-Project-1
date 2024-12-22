@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <link rel="stylesheet" href="Bootstrap-5.3.3/css/bootstrap.min.css">
+        <script defer src="Bootstrap-5.3.3/js/bootstrap.min.js"></script>
+        <script defer src="Bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+        <title>HTML - Bootstrap 5 - Git and GitHub</title>
+    </head>
+    <body>
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h2>How to install Git and Connect to GitHub Account - Using ( Bootstrap 5 )</h2>
+            <p>First of all, we have to know about what Git and GitHub and what are Purpose of these</p> 
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h5>Git</h5>
+                  <p>Git is open source developer tools which is used to manage the small and large level source code.</p>
+                  <p>It alos used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>GitHub</h5>
+                    <p>GitHub is clound based platform, which used to store and share the code. It uses Git software.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h5>How do Git and GitHub work together?</h5>        
+                    <p>When we upload files to GitHub, we'll store them in a "Git repository."</p>
+                    <p>This means that when we make changes (or "commits") to files in GitHub, Git will automatically start to
+                        track and manage your changes.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                     <h5>Procedure to install Git and connect to GitHub account</h5>
+                     <h6>1. Install Git:</h6>
+                     <p>Download and install Git from the official Git website.</p>
+                     <p>During installation, select the default options unless you have specific preferences.</p>
+                     <h6>2. Set Up Git:</h6>
+                     <p>Open your terminal or command prompt and configure Git with your GitHub account:</p>
+                     <p>git config --global user.name "YourGitHubUsername"</p>
+                     <p>git config --global user.email "YourEmail@example.com"</p>
+                     <h6>3. Create a Repository on GitHub:</h6>
+                     <p>Log in to your GitHub account.</p>
+                     <p>Click on the + icon in the top-right corner  and select New repository.</p>
+                     <p>Give it a name, optionally add a description, and click Create repository.</p>
+                     <h6>4. Initialize Git in Your Project Folder:</h6>
+                     <p>Navigate to your project folder using the terminal:</p>
+                     <p>cd path/to/your/project</p>
+                     <p>Initialize Git:</p>
+                     <p>git init</p>
+                     <h6>5. Connect to Your GitHub Repository:</h6>
+                     <p>Add your GitHub repository as a remote:</p>
+                     <p>git remote add origin https://github.com/YourGitHubUsername/YourRepositoryName.git</p>
+                     <h6>6. Add and Commit Your Files</h6>
+                     <p>Stage your files:</p>
+                     <p>git add .</p>
+                     <p>Commit your changes:</p>
+                     <p>git commit -m "Initial commit"</p>
+                     <h6>7. Push Your Code to GitHub:</h6>
+                     <p>Push your changes to GitHub:</p>
+                     <p>git branch -M main</p>
+                     <p>git push -u origin main</p>
+                     <h6>8. View Your Code on GitHub</h6>
+                     <p>Go back to your GitHub repository in the browser, and you’ll see your files uploaded!</p>
+                </div> 
+            </div>
+        </div>
+    </body>
+</html>
