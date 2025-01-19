@@ -43,13 +43,13 @@
         <div class="container-fluid pt-5 text-white text-center">
             <div class="row">
                 <div class="col-12 col-md-5">
-                    <img class="img-fluid" src="assets/images/image-1.png" alt="Git Image 1">
+                    <img class="img-fluid mx-auto d-block" src="assets/images/image-1.png" alt="Git Image 1">
                 </div>
                 <div class="col-12 col-md-2 pt-5 mt-5">
-                    <img class="img-fluid" src="assets/images/image-arrow.jpg" alt="Arrow Image">
+                    <img class="img-fluid mx-auto d-block" src="assets/images/image-arrow.jpg" alt="Arrow Image">
                 </div>
                 <div class="col-12 col-md-5">
-                    <img class="img-fluid" src="assets/images/image-2.jpg" alt="Git Image 2">
+                    <img class="img-fluid mx-auto d-block" src="assets/images/image-2.jpg" alt="Git Image 2">
                 </div>
             </div>
         </div>
@@ -67,30 +67,30 @@
                     <table class="table table-hover table-bordered text-center align-middle">
                         <thead class="table-primary">
                             <tr>
-                                <th><h5>Git</h5></th>
-                                <th><h5>GitHub</h5></th>
+                                <th class="p-4 text-center"><h5>Git</h5></th>
+                                <th class="p-4 text-center"><h5>GitHub</h5></th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>It is a software</td>
-                                <td>It is a service</td>
+                                <td class="p-4 text-center">It is a software</td>
+                                <td class="p-4 text-center">It is a service</td>
                             </tr>
                             <tr>
-                                <td>It is installed locally on the system</td>
-                                <td>It is hosted on the web</td>
+                                <td class="p-4 text-center">It is installed locally on the system</td>
+                                <td class="p-4 text-center">It is hosted on the web</td>
                             </tr>
                             <tr>
-                                <td>It is a command line tool</td>
-                                <td>It provides a graphical interface</td>
+                                <td class="p-4 text-center">It is a command line tool</td>
+                                <td class="p-4 text-center">It provides a graphical interface</td>
                             </tr>
                             <tr>
-                                <td>It is a tool to manage different versions of edits made to files in a Git repository</td>
-                                <td>It is a space to upload a copy of the Git repository</td>
+                                <td class="p-4 text-center">It is a tool to manage different versions of edits made to files in a Git repository</td>
+                                <td class="p-4 text-center">It is a space to upload a copy of the Git repository</td>
                             </tr>
                             <tr>
-                                <td>It provides functionalities like Version Control System, Source Code Management</td>
-                                <td>It provides functionalities of Git like VCS, Source Code Management, and a few additional features</td>
+                                <td class="p-4 text-center">It provides functionalities like Version Control System, Source Code Management</td>
+                                <td class="p-4 text-center">It provides functionalities of Git like VCS, Source Code Management, and a few additional features</td>
                             </tr>
                         </tbody>
                     </table>
@@ -105,36 +105,52 @@
         <div class="container pt-5 ps-5 pe-5">
             <div class="row">
                 <div class="col-12">
-                     <h6 class="py-2">1. Install Git:</h6>
-                     <p class="py-2">Download and install Git from the official Git website.</p>
-                     <p class="py-2">During installation, select the default options unless you have specific preferences.</p>
-                     <h6 class="py-2">2. Set Up Git:</h6>
-                     <p class="py-2">Open your terminal or command prompt and configure Git with your GitHub account:</p>
-                     <p class="py-1"><code>git config --global user.name "YourGitHubUsername"</code></p>
-                     <p class="py-1"><code>git config --global user.email "YourEmail@example.com"</code></p>
-                     <h6 class="py-2">3. Create a Repository on GitHub:</h6>
-                     <p class="py-2">Log in to your GitHub account.</p>
-                     <p class="py-2">Click on the + icon in the top-right corner and select New repository.</p>
-                     <p class="py-2">Give it a name, optionally add a description, and click Create repository.</p>
-                     <h6 class="py-2">4. Initialize Git in Your Project Folder:</h6>
-                     <p class="py-2">Navigate to your project folder using the terminal:</p>
-                     <p class="py-1"><code>cd path/to/your/project</code></p>
-                     <p class="py-1">Initialize Git:</p>
-                     <p class="py-1"><code>git init</code></p>
-                     <h6 class="py-2">5. Connect to Your GitHub Repository:</h6>
-                     <p class="py-2">Add your GitHub repository as a remote:</p>
-                     <p class="py-1"><code>git remote add origin https://github.com/YourGitHubUsername/YourRepositoryName.git</code></p>
-                     <h6 class="py-2">6. Add and Commit Your Files</h6>
-                     <p class="py-2">Stage your files:</p>
-                     <p class="py-1"><code>git add .</code></p>
-                     <p class="py-2">Commit your changes:</p>
-                     <p class="py-1"><code>git commit -m "Initial commit"</code></p>
-                     <h6 class="py-2">7. Push Your Code to GitHub:</h6>
-                     <p class="py-2">Push your changes to GitHub:</p>
-                     <p class="py-1"><code>git branch -M main</code></p>
-                     <p class="py-1"><code>git push -u origin main</code></p>
-                     <h6 class="py-2">8. View Your Code on GitHub</h6>
-                     <p class="py-2">Go back to your GitHub repository in the browser, and you’ll see your files uploaded!</p>
+                     <div class="list-group list-group-flush">
+                          <li class="list-group-item border-0"><span class="btn btn-primary disabled">1. Install Git</span></li>
+                          <li class="list-group-item border-0">Download and install Git from the official Git website.</li>
+                          <li class="list-group-item border-0">During installation, select the default options unless you have specific preferences.</li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">2. Set Up Git</span></li>
+                        <li class="list-group-item border-0">Open your terminal or command prompt and configure Git with your GitHub account:</li>
+                        <li class="list-group-item border-0"><code>git config --global user.name "YourGitHubUsername"</code></li>
+                        <li class="list-group-item border-0"><code>git config --global user.email "YourEmail@example.com"</code></li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">3. Create a Repository on GitHub</span></li>
+                        <li class="list-group-item border-0">Log in to your GitHub account.</li>
+                        <li class="list-group-item border-0">Click on the + icon in the top-right corner and select New repository.</li>
+                        <li class="list-group-item border-0">Give it a name, optionally add a description, and click Create repository.</li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">4. Initialize Git in Your Project Folder</span></li>
+                        <li class="list-group-item border-0">Navigate to your project folder using the terminal:</li>
+                        <li class="list-group-item border-0"><code>cd path/to/your/project</code></li>
+                        <li class="list-group-item border-0">Initialize Git:</li>
+                        <li class="list-group-item border-0"><code>git init</code></li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">5. Connect to Your GitHub Repository:</span></li>
+                        <li class="list-group-item border-0">Add your GitHub repository as a remote:</li>
+                        <li class="list-group-item border-0"><code>git remote add origin https://github.com/YourGitHubUsername/YourRepositoryName.git</code></li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">6. Add and Commit Your Files</span></li>
+                        <li class="list-group-item border-0">Stage your files:</li>
+                        <li class="list-group-item border-0"><code>git add .</code></li>
+                        <li class="list-group-item border-0">Commit your changes:</li>
+                        <li class="list-group-item border-0"><code>git commit -m "Initial commit"</code></li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">7. Push Your Code to GitHub</span></li>
+                        <li class="list-group-item border-0">Push your changes to GitHub:</li>
+                        <li class="list-group-item border-0"><code>git branch -M main</code></li>
+                        <li class="list-group-item border-0"><code>git push -u origin main</code></li>
+                     </div>
+                     <div class="list-group list-group-flush">
+                        <li class="list-group-item border-0"><span class="btn btn-primary disabled">8. View Your Code on GitHub</span></li>
+                        <li class="list-group-item border-0">Go back to your GitHub repository in the browser, and you’ll see your files uploaded!</li>
+                     </div>
                 </div> 
             </div>
         </div>
